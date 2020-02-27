@@ -109,3 +109,22 @@ form{
     text-align: right;
     
 }
+
+/* CADASTRO ETAPA 5 */
+
+.imagens{
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagens-texto{
+    max-width: 500px;
+    margin: auto 10px;
+}
+
+.caixa-texto{
+    
+    display: flex;
+    justify-content: space-between;
+}
