@@ -1,0 +1,193 @@
+                    body {
+                        margin: 0;
+                        padding: 0;
+                        font-family: 'Roboto', ;
+                    }
+                    
+                    * {
+                        box-sizing: border-box;
+                    }
+                    
+                    #nav {
+                        background-color: #106552!important;
+                        font-family: Roboto;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 20px;
+                    }
+                    
+                    .navbar-brand img {
+                        width: 150px;
+                    }
+                    /* .navbar {
+    padding: 0;
+} */
+                    
+                    .header {
+                        background-color: #106552;
+                    }
+                    
+                    .logo {
+                        position: relative;
+                    }
+                    
+                    .login {
+                        display: flex;
+                        justify-content: flex-end;
+                    }
+                    
+                    #apoie {
+                        color: #EEEEEE;
+                        padding-left: 70px;
+                    }
+                    
+                    #apoie:hover {
+                        color: #c0ce00;
+                    }
+                    
+                    #sobre {
+                        color: #EEEEEE;
+                        padding-left: 70px;
+                    }
+                    
+                    #sobre:hover {
+                        color: #c0ce00;
+                    }
+                    
+                    #projetos {
+                        color: #EEEEEE;
+                        padding-left: 70px;
+                    }
+                    
+                    #projetos:hover {
+                        color: #c0ce00;
+                    }
+                    
+                    #cadastrar {
+                        color: #EEEEEE;
+                        padding-left: 70px;
+                    }
+                    
+                    #cadastrar:hover {
+                        color: #c0ce00;
+                    }
+                    
+                    #entrar {
+                        color: #EEEEEE;
+                        padding-left: 70px;
+                    }
+                    
+                    #entrar:hover {
+                        color: #c0ce00;
+                    }
+                    
+                    #menuTopo {
+                        text-align: center!important;
+                    }
+                    
+                    #opcoes {
+                        padding-right: 10%;
+                    }
+                    
+                    #baloes {
+                        position: relative;
+                        padding-top: 5%;
+                        width: 700px;
+                        padding-bottom: 5%;
+                    }
+                    
+                    #textoCentro h1 {
+                        padding-bottom: 200px;
+                        text-align: center;
+                    }
+                    /* #cadastre {
+    position: relative;
+    width: 391.66px;
+    left: 600px;
+    top: 500px;
+    z-index: 1;
+    padding: 5px;
+}
+
+#entrar {
+    position: relative;
+    width: 391.66px;
+    left: 204px;
+    top: 550px;
+    z-index: 1;
+    padding: 5px;
+}
+
+.facebook {
+    width: 25px;
+}
+
+#entrarFacebook {
+    position: relative;
+    width: 391.66px;
+    right: 192px;
+    top: 600px;
+    z-index: 1;
+    padding: 5px;
+} */
+                    /* FINAL HOME */
+                    
+                    #saibaMais {
+                        background: #E6FFDB!important;
+                        display: flex;
+                        flex-direction: row!important;
+                        justify-content: space-between!important;
+                        align-items: stretch!important;
+                        align-content: space-between!important;
+                    }
+                    
+                    #texto1 {
+                        position: absolute;
+                        width: 349px;
+                        height: 189px;
+                        left: 50px;
+                        top: 1050px;
+                    }
+                    
+                    .card {
+                        background: #E6FFDB!important;
+                    }
+                    
+                    section .card {
+                        border: none;
+                    }
+                    
+                    .junte {
+                        font-family: 'Bree Serif', ;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 40px;
+                        line-height: 68px;
+                        text-align: center;
+                    }
+                    
+                    .melhores {
+                        font-family: 'Bree Serif', ;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 40px;
+                        line-height: 54px;
+                        color: #106552;
+                        text-align: center;
+                    }
+                    
+                    .container h3 {
+                        text-align: center;
+                        font-family: 'Bree Serif', ;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 35px;
+                        line-height: 54px;
+                        color: #106552;
+                    }
+                    
+                    #folha {
+                        display: flex;
+                        flex-direction: row!important;
+                        justify-content: space-between!important;
+                    }
