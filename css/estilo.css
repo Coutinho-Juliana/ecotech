@@ -138,6 +138,8 @@ form{
     width: 250px;
     height: 400px;
     float: left;
+    text-align: center;
+    
 }
 
 .posts{
@@ -146,6 +148,7 @@ form{
     padding: 5px;
     width: 500px;
     height: 800px;
+    text-align: center;
     /* float: left; */
 }
 
@@ -165,6 +168,7 @@ form{
 
 .img-perfil{
     max-width: 100px;
+    justify-content: center;
 }
 
 .subtema-interesse{
@@ -172,6 +176,7 @@ form{
     background-color: white;
     color: #106552;
     text-align: center;
+    margin: 5px;
 }
 
 .subtema-recomendacoes{
@@ -179,4 +184,11 @@ form{
     background-color: white;
     color: #106552;
     text-align: center;
+    margin: 5px;
+}
+
+.img-perfil-friend{
+    max-width: 50px;
+    float: left;
+    margin: 5px; 
 }
