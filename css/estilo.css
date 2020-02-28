@@ -128,3 +128,55 @@ form{
     display: flex;
     justify-content: space-between;
 }
+
+/* FEED */
+
+.perfil{
+    background-color: #e5e5e5;
+    margin: 5px auto;
+    padding: 5px;
+    width: 250px;
+    height: 400px;
+    float: left;
+}
+
+.posts{
+    background-color: #e5e5e5;
+    margin: 5px auto;
+    padding: 5px;
+    width: 500px;
+    height: 800px;
+    /* float: left; */
+}
+
+.interesses-recomendacoes{
+    background-color: #e5e5e5;
+    margin: 5px auto;
+    padding: 5px;
+    width: 250px;
+    height: auto;
+    float: right;
+}
+
+.feed{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-perfil{
+    max-width: 100px;
+}
+
+.subtema-interesse{
+    border-style: solid;
+    background-color: white;
+    color: #106552;
+    text-align: center;
+}
+
+.subtema-recomendacoes{
+    border-style: solid;
+    background-color: white;
+    color: #106552;
+    text-align: center;
+}
