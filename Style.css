@@ -87,6 +87,7 @@
                     
                     #opcoes {
                         padding-right: 10%;
+                        width: 19px;
                     }
                     
                     #baloes {
@@ -150,7 +151,7 @@
                     }
                     
                     .card {
-                        background: #E6FFDB!important;
+                        background: #E6FFDB;
                     }
                     
                     section .card {
@@ -190,4 +191,38 @@
                         display: flex;
                         flex-direction: row!important;
                         justify-content: space-between!important;
+                    }
+                    /************************* PERFIL **********************************/
+                    
+                    #perfil {
+                        background: #E5E5E5!important;
+                    }
+                    /****************** ENTRAR ************************************/
+                    
+                    #logoEntrar {
+                        padding-top: 5%;
+                    }
+                    
+                    .form-group {
+                        width: 30%!important;
+                        position: relative;
+                        display: flex;
+                        flex-direction: column;
+                    }
+                    
+                    form {
+                        padding-left: 40%;
+                    }
+                    
+                    button.btn {
+                        display: flex!important;
+                        justify-content: center!important;
+                    }
+                    
+                    .faca {
+                        padding: 20px;
+                    }
+                    
+                    footer {
+                        background: #106552;
                     }
