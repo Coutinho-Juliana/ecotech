@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    grid-template-rows: 15vh 10vh 55vh 20vh;
+    grid-template-areas: "header header" "nav nav" "content aside" "footer footer";
+    /* para definir a área no grid utilize 'grid-area' */
+}
+
+.nav-link {
+    color: white!important;
+    padding-left: 100px!important;
+    font-size: 20px;
+}
+
+.nav-link:hover {
+    color: #28a745!important;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+@media(max-width:576px) {
+    .cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.greta {
+    border: 2px solid black;
+    border-radius: 50%!important;
+    width: 25%;
+    /* margin-top: 20%; */
+}
+
+
+/* .capa {
+    background-image: url(imagens/capa.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+} */
+
+@media(max-width:576) {
+    #perfil {
+        margin-top: 50%;
+    }
+}

@@ -7,7 +7,7 @@
     <link rel="shortcut icon" href="imagens/Untitled drawing 2.png" type="image/x-icon">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/estilos-cadastro.css">
-    <title>Entrar</title>
+    <title>Cadastrar</title>
 </head>
 
 <body>
@@ -15,7 +15,8 @@
     <header>
         <div class="menu ">
             <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #106552!important; padding-left: 50px;">
-                <a class="navbar-brand" href="index_corrigida.html"><img src="imagens/EcoTech-logo-white 1.png" style="width: 200px; margin: 0;padding-left:30% ;"></a>
+                <a class="navbar-brand" href="index_corrigida.html">
+                    <img src="imagens/EcoTech-logo-white 1.png" style="width: 200px; margin: 0;padding-left:30% ;"></a>
 
         </div>
 
@@ -30,7 +31,7 @@
             <img src="imagens/Untitled drawing 2.png" alt="" style="margin-top: 5%;">
         </div>
         <div class="container d-flex justify-content-center" style="margin-top: 2%;">
-            <h1>Login</h1>
+            <h1>Cadastre-se</h1>
         </div>
         <div class="container d-flex justify-content-center">
             <button type="button" class="btn btn-outline-primary" style="margin-top: 5%;font-size: 20px; padding: 2%; width: 30%;"> <img src="imagens/facebook.png" alt=""style="padding: 1%;"> Continuar com Facebook</button>
@@ -44,8 +45,8 @@
 
 
 
-        <div class="container d-flex justify-content-center" style="margin-top: 5%;">
-            <h2>Ou faça login com seu e-mail</h2>
+        <div class="container d-flex justify-content-center " style="margin-top: 5%; ">
+            <h2>Ou cadastre-se com seu e-mail</h2>
         </div>
         <br>
 
@@ -53,10 +54,16 @@
         <div class="container" style="margin-left: 34%;">
             <form class="needs-validation" novalidate>
                 <div class="form-column">
-
+                    <div class="col-md-4 mb-3">
+                        <label for="validationCustom01">Nome</label>
+                        <input type="text" class="form-control" id="validationCustom01" value="Marcos" required>
+                        <div class="valid-feedback">
+                            Muito Bem!
+                        </div>
+                    </div>
                     <div class="col-md-4 mb-3">
                         <label for="validationCustom02">E-mail</label>
-                        <input type="email" class="form-control" id="validationCustom02" required>
+                        <input type="email" class="form-control" id="validationCustom02" value="seuemail@email.com" required>
                         <div class="valid-feedback">
                             Muito Bem!
                         </div>
@@ -65,16 +72,29 @@
                         <label for="validationCustomUsername">Senha</label>
                         <input type="password" class="form-control" id="validationCustom02" required>
                     </div>
-
+                    <div class="col-md-4 mb-3">
+                        <label for="validationCustomUsername">Repita sua senha</label>
+                        <input type="password" class="form-control" id="validationCustom02" required>
+                    </div>
                 </div>
                 <div class="form-column">
 
 
-
+                    <div class="form-group">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                            <label class="form-check-label" for="invalidCheck">
+                     Eu Concordo com os termos de uso
+                    </label>
+                            <div class="invalid-feedback">
+                                você deve ler os termos de uso.
+                            </div>
+                        </div>
+                    </div>
 
 
                     <div class="container">
-                        <button class="btn btn-success" type="submit" style="font-size: 20px;"> <a href="perfil.html" > Entrar</a></button></div>
+                        <button class="btn btn-success" type="submit" style="font-size: 20px;">Cadastrar</button></div>
             </form>
 
             <script>
@@ -100,10 +120,8 @@
             </div>
         </div>
         <div class="container d-flex justify-content-center" style="margin-top: 10%; ">
-            <!-- <a href=" entrar.html " style="text-decoration:none;">
-                <h1>Já é Cadastrado? Então entre aqui</h1>
-            </a> -->
-            <a class="btn btn-success" href=" cadastrar.html " style="width: 50%; font-size: 25px; padding: 2%;" id="entrar">Não tem conta? Cadastre-se aqui </a>
+
+            <a class="btn btn-success" href=" entrar.html " style="width: 50%; font-size: 25px; padding: 2%;" id="entrar">Já tem uma conta? Então entre aqui</a>
         </div>
     </section>
     <br>
@@ -112,14 +130,14 @@
     <br>
     <br>
     <br>
-    <footer style="width: 100%;background-color:#106552 ;">
+    <footer style="width: 100%;background-color:#106552 ; ">
 
 
 
         <br>
 
 
-        <div class="container copyright text-center" style="padding: 1%; color: white;">
+        <div class="container copyright text-center " style="padding: 1%; color: white; ">
             <p>Copyright &copy; Your 2019</p>
 
         </div>

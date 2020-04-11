@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (max-width:576px) {
+    .container h2 {
+        font-size: 23px;
+    }
+}
+
+@media(max-width:576px) {
+    .container form {
+        margin-right: 50%;
+    }
+}
+
+@media(max-width:576px) {
+    footer {
+        width: 100%;
+    }
+}
+
+@media(max-width:576px) {
+    #entrar {
+        font-size: 15px!important;
+    }
+}
+
+
+/* @media (max-width:576px) {
+    body {
+        background: red;
+    }
+} */
+
+
+/******************* login ****************/
