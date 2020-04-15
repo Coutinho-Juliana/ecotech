@@ -44,16 +44,25 @@
     /* margin-top: 20%; */
 }
 
-
-/* .capa {
-    background-image: url(imagens/capa.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-attachment: fixed;
-} */
-
-@media(max-width:576) {
+@media(max-width:576px) {
     #perfil {
-        margin-top: 50%;
+        margin-top: 30%;
     }
+}
+
+@media(max-width:576px) {
+    .mediaInfo {
+        display: flex !important;
+        flex-direction: column!important;
+    }
+}
+
+.mediaInfo {
+    flex-direction: row;
+}
+
+.acoes img:hover {
+    background-color: #28a745;
+    border: 1px solid #28a745;
+    border-radius: 20%;
 }
