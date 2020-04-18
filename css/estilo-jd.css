@@ -20,9 +20,13 @@ body{
     /* para definir a área no grid utilize 'grid-area' */
 }
 
+body {
+    font-family: 'Bree Serif';
+}
+
 .nav-link {
     color: white!important;
-    padding-left: 100px!important;
+    padding-left: 80px!important;
     font-size: 20px;
 }
 
@@ -71,8 +75,12 @@ body{
     flex-direction: row;
 }
 
-.acoes img:hover {
+
+/* .acoes img:hover {
     background-color: #28a745;
     border: 1px solid #28a745;
     border-radius: 20%;
-}
+} */
+
+
+/******************************** ESTILOS DA JU ***********************/
