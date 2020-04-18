@@ -1,4 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Bree+Serif&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Bree Serif';
+    
+}
+
 * {
     margin: 0%;
     padding: 0%;

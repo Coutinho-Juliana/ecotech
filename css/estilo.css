@@ -9,6 +9,77 @@ body{
     
 }
 
+/*------------------ CSS DO JOAO ------------------*/
+* {
+    margin: 0%;
+    padding: 0%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    grid-template-rows: 15vh 10vh 55vh 20vh;
+    grid-template-areas: "header header" "nav nav" "content aside" "footer footer";
+    /* para definir a área no grid utilize 'grid-area' */
+}
+
+.nav-link {
+    color: white!important;
+    padding-left: 100px!important;
+    font-size: 20px;
+}
+
+.nav-link:hover {
+    color: #28a745!important;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+@media(max-width:576px) {
+    .cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.greta {
+    border: 2px solid black;
+    border-radius: 50%!important;
+    width: 25%;
+    /* margin-top: 20%; */
+}
+
+@media(max-width:576px) {
+    #perfil {
+        margin-top: 30%;
+    }
+}
+
+@media(max-width:576px) {
+    .mediaInfo {
+        display: flex !important;
+        flex-direction: column!important;
+    }
+}
+
+.mediaInfo {
+    flex-direction: row;
+}
+
+.acoes img:hover {
+    background-color: #28a745;
+    border: 1px solid #28a745;
+    border-radius: 20%;
+}
+
+/* ------------------ CSS JU COUTINHO ------------------*/
+
 .menu{
     display: inline-block;
     margin: 5px auto;
@@ -36,8 +107,6 @@ h1{
 .question{
     padding: 0px 50px 0px 150px;
 }
-
-
 
 .button{
     text-align: right;
@@ -90,6 +159,88 @@ footer  {
     text-align: center;
 
 }
+
+/* QUEM SOMOS */
+.capa{
+    
+    /* background-image: url("/Projeto_Integrador/img/chaves.jpeg");  */
+    background-color: gray;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    height: 300px;   
+    /* z-index: 1; */
+    
+    
+}
+
+.quem-somos{
+    margin: 10%;
+}
+
+.quem-img{
+    float: right;
+       
+}
+
+.quem-texto{
+    float: left;
+}
+
+.somos-2{
+    border-radius: 25%;
+}
+
+.founder-text{
+    background: white;
+    /* display: flex; */
+    text-align: center;
+    margin: 5% 10%;
+    padding-right: 10px;
+}
+
+.oque-fazemos{
+    margin: 10%;
+}
+
+.oque-img{
+    float: left;
+}
+
+.oque-texto{
+    float: right;
+}
+
+.como-fazemos{
+    margin: 10%;
+}
+
+.como-img{
+    float: right;
+    padding: 0 0 5% 0;
+}
+
+.como-texto{
+    float: left;
+}
+
+.card-quem-oque-como {
+    background: none;
+    align-items: center;
+    margin: 0 10%;
+}
+
+.card-img-top-founders{
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
+    
+        
+}
+
+.card-body-founders{
+    align-items: baseline;
+}
+
 
 /* CADASTRO ETAPA 1 */
 form{
@@ -154,13 +305,15 @@ form{
     align-items: baseline;
 }
 
-/* .card {
-    background: #E6FFDB!important;
+.card {
+    background: none;
+    align-items: center;
+    
 }
 
 section .card {
     border: none;
-} */
+} 
 
 /* CONFIRMAÇÃO DO CADASTRO DO PROJETO */
 #conquistas-confirmar{
