@@ -1,12 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Bree+Serif&display=swap');
-
-*{
+* {
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Bree Serif';
-    
 }
 
 * {
@@ -89,6 +87,23 @@ body {
     /* default 0 */
     /* flex-shrink: 3; */
     justify-content: space-around;
+}
+
+@media(max-width:576px) {
+    .publicacoes {
+        display: flex;
+        flex-direction: column!important;
+    }
+    .container {
+        width: 90%!important;
+        justify-content: center;
+    }
+    .coluna1 {
+        margin: 35% 5% 0 5%!important;
+    }
+    .pub1 {
+        margin: 0 10% 0 5%!important;
+    }
 }
 
 .container h4 a {
