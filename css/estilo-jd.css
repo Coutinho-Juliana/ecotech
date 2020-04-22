@@ -147,4 +147,14 @@ body {
 }
 
 
+/******************************** ESTILOS DO FEED ***********************/
+
+@media(max-width:576px) {
+    .avatares {
+        border-radius: 50px!important;
+        width: 20%!important;
+    }
+}
+
+
 /******************************** ESTILOS DA JU ***********************/
