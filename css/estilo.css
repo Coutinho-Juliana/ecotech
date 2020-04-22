@@ -163,9 +163,9 @@ footer  {
 /* QUEM SOMOS */
 .capa{
     
-    /* background-image: url("img/capa.jpg"); */
-    /* background-color: gray; */
-    background-size: cover;
+    background-image: url("../Projeto_Integrador/img/ana-luiza.jpeg"); 
+    /* background-color: gray;  */
+    /* background-size: cover; */
     
     height: 260px;   
     
