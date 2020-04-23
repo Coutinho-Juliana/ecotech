@@ -4,10 +4,6 @@
     box-sizing: border-box;
 } */
 
-body{
-    font-family: 'Bree Serif';
-    
-}
 
 /*------------------ CSS DO JOAO ------------------*/
 * {
@@ -21,9 +17,13 @@ body{
     /* para definir a área no grid utilize 'grid-area' */
 }
 
+body {
+    font-family: 'Bree Serif';
+}
+
 .nav-link {
     color: white!important;
-    padding-left: 100px!important;
+    padding-left: 80px!important;
     font-size: 20px;
 }
 
@@ -46,6 +46,9 @@ body{
         justify-content: center;
         align-items: center;
     }
+    .logoresponsivo {
+        width: 50px!important;
+    }
 }
 
 .greta {
@@ -58,6 +61,21 @@ body{
 @media(max-width:576px) {
     #perfil {
         margin-top: 30%;
+    }
+    .textos h2 {
+        font-size: 150%;
+    }
+    .thumbNails {
+        justify-content: space-between!important;
+        flex-direction: row!important;
+        flex-wrap: wrap!important;
+        padding-left: 25%;
+    }
+    .imgThumb {
+        width: 45%!important;
+    }
+    .adicionar {
+        width: 15%!important;
     }
 }
 
@@ -72,22 +90,83 @@ body{
     flex-direction: row;
 }
 
-.acoes img:hover {
+
+/* .acoes img:hover {
     background-color: #28a745;
     border: 1px solid #28a745;
     border-radius: 20%;
+} */
+
+.publicacoes {
+    display: flex;
+    flex-direction: row;
+    /* flex-grow: 4; */
+    /* default 0 */
+    /* flex-shrink: 3; */
+    justify-content: space-around;
 }
+
+@media(max-width:576px) {
+    .publicacoes {
+        display: flex;
+        flex-direction: column!important;
+    }
+    .container {
+        width: 90%!important;
+        justify-content: center;
+    }
+    .coluna1 {
+        margin: 35% 5% 0 5%!important;
+    }
+    .pub1 {
+        margin: 0 10% 0 5%!important;
+    }
+}
+
+.container h4 a {
+    text-decoration: none;
+}
+
+.container h4 a:hover {
+    background-color: #28a745!important;
+    border-radius: 5%;
+}
+
+.container h3 a {
+    text-decoration: none;
+}
+
+.container h3 a:hover {
+    color: #28a745!important;
+}
+
+.recomendados:hover {
+    background-color: #28a745!important;
+    border-radius: 5%;
+}
+
+
+/******************************** ESTILOS DO FEED ***********************/
+
+@media(max-width:576px) {
+    .avatares {
+        border-radius: 50px!important;
+        width: 20%!important;
+    }
+}
+
+
 
 /* ------------------ CSS JU COUTINHO ------------------*/
 
-/* .menu{
+ .menu{
     display: inline-block;
     margin: 5px auto;
     overflow: hidden;
 }
 
 #logo{
-    max-width: 450px;
+    max-width: 80px;
     float: left;
     
 }
@@ -97,7 +176,7 @@ header{
     overflow: hidden;
     background-color: #106552; 
     color: white; 
-} */
+} 
 
 
 h1{
@@ -161,15 +240,15 @@ footer  {
 }
 
 /* QUEM SOMOS */
-.capa{
-    
-    background-image: url("../Projeto_Integrador/img/ana-luiza.jpeg"); 
-    /* background-color: gray;  */
-    /* background-size: cover; */
-    
-    height: 260px;   
-    
-    
+.capa-quem{
+    margin: 15px 0 0 0;
+    background-image: url(../img/mao-semente.jpg); 
+    /* background-image: url(../img/jane.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 76vh;    
 }
 
 .quem-somos{
@@ -197,16 +276,38 @@ footer  {
     padding-right: 10px;
 }
 
+.capa-oque{
+    margin: 15px 0 0 0;
+    background-image: url(../img/solo-plantar.jpg); 
+    /* background-image: url(../img/jane.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 76vh;    
+}
 .oque-fazemos{
     margin: 10%;
 }
 
 .oque-img{
     float: left;
+    margin: 0 0 15px 0;
 }
 
 .oque-texto{
     float: right;
+}
+
+.capa-como{
+    margin: 15px 0 0 0;
+    background-image: url(../img/capa.jpg); 
+    /* background-image: url(../img/jane.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 76vh;    
 }
 
 .como-fazemos{
@@ -265,6 +366,15 @@ form{
     margin: 0px 10px;
 }
 
+/* PÁGINA ENTRAR */
+
+
+.form-cadastro{
+    padding: 0 350px 0 350px;
+    /* margin: 0 200px; */
+    line-height: 55px;
+    
+}
 
 
 /* CADASTRO ETAPA 5 */
@@ -296,7 +406,7 @@ form{
     text-align: center;
 }
 
-.card-img-top{
+.card-img-top-resultados{
     height: 60px;
 }
 
@@ -304,15 +414,15 @@ form{
     align-items: baseline;
 }
 
-.card {
+.card-resultados {
     background: none;
     align-items: center;
     
 }
 
-section .card {
+/* section .card {
     border: none;
-} 
+}  */
 
 /* CONFIRMAÇÃO DO CADASTRO DO PROJETO */
 #conquistas-confirmar{
