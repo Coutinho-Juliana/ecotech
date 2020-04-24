@@ -1,13 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Bree+Serif&display=swap');
-* {
+
+/* *{
     box-sizing: border-box;
-}
+} */
 
-body {
-    font-family: 'Bree Serif';
-}
 
-<<<<<<< HEAD
 /*------------------ CSS DO JOAO ------------------*/
 * {
     margin: 0%;
@@ -20,9 +17,13 @@ body {
     /* para definir a área no grid utilize 'grid-area' */
 }
 
+body {
+    font-family: 'Bree Serif';
+}
+
 .nav-link {
     color: white!important;
-    padding-left: 100px!important;
+    padding-left: 80px!important;
     font-size: 20px;
 }
 
@@ -45,6 +46,9 @@ body {
         justify-content: center;
         align-items: center;
     }
+    .logoresponsivo {
+        width: 50px!important;
+    }
 }
 
 .greta {
@@ -57,6 +61,21 @@ body {
 @media(max-width:576px) {
     #perfil {
         margin-top: 30%;
+    }
+    .textos h2 {
+        font-size: 150%;
+    }
+    .thumbNails {
+        justify-content: space-between!important;
+        flex-direction: row!important;
+        flex-wrap: wrap!important;
+        padding-left: 25%;
+    }
+    .imgThumb {
+        width: 45%!important;
+    }
+    .adicionar {
+        width: 15%!important;
     }
 }
 
@@ -71,104 +90,165 @@ body {
     flex-direction: row;
 }
 
-.acoes img:hover {
+
+/* .acoes img:hover {
     background-color: #28a745;
     border: 1px solid #28a745;
     border-radius: 20%;
+} */
+
+.publicacoes {
+    display: flex;
+    flex-direction: row;
+    /* flex-grow: 4; */
+    /* default 0 */
+    /* flex-shrink: 3; */
+    justify-content: space-around;
 }
+
+@media(max-width:576px) {
+    .publicacoes {
+        display: flex;
+        flex-direction: column!important;
+    }
+    .container {
+        width: 90%!important;
+        justify-content: center;
+    }
+    .coluna1 {
+        margin: 35% 5% 0 5%!important;
+    }
+    .pub1 {
+        margin: 0 10% 0 5%!important;
+    }
+}
+
+.container h4 a {
+    text-decoration: none;
+}
+
+.container h4 a:hover {
+    background-color: #28a745!important;
+    border-radius: 5%;
+}
+
+.container h3 a {
+    text-decoration: none;
+}
+
+.container h3 a:hover {
+    color: #28a745!important;
+}
+
+.recomendados:hover {
+    background-color: #28a745!important;
+    border-radius: 5%;
+}
+
+
+/******************************** ESTILOS DO FEED ***********************/
+
+@media(max-width:576px) {
+    .avatares {
+        border-radius: 50px!important;
+        width: 20%!important;
+    }
+}
+
+
 
 /* ------------------ CSS JU COUTINHO ------------------*/
 
-.menu{
-=======
-.menu {
->>>>>>> 19a397f35a6c8f8a564aedf0c88b3877fed402e5
+ .menu{
     display: inline-block;
     margin: 5px auto;
     overflow: hidden;
 }
 
-#logo {
-    max-width: 450px;
+#logo{
+    max-width: 80px;
     float: left;
+    
 }
 
-header {
+
+header{
     overflow: hidden;
-    background-color: #106552;
-    color: white;
-}
+    background-color: #106552; 
+    color: white; 
+} 
 
-h1 {
+
+h1{
     color: #828282;
 }
 
-.question {
+.question{
     padding: 0px 50px 0px 150px;
 }
 
-<<<<<<< HEAD
 .button{
-=======
-.button {
->>>>>>> 19a397f35a6c8f8a564aedf0c88b3877fed402e5
     text-align: right;
 }
 
-.btn {
-    background-color: #106552;
+.btn{
+    background-color: #106552; 
     color: white;
+    
+    
 }
 
-nav {
+nav{
     margin: auto;
     width: 100%;
 }
 
-nav ul {
-    float: right;
+nav ul{
+    float: right;   
     margin: 20px auto;
 }
 
-nav ul li {
+nav ul li{
     display: inline-block;
     padding: 10px;
+    
 }
 
-nav ul li a {
+nav ul li a{
     text-decoration: none;
     color: white;
     font-size: 1em;
     padding: 20px;
 }
 
-footer {
+footer  {
     overflow: hidden;
-    background-color: #106552;
+    background-color: #106552; 
     color: white;
     max-height: 104px;
+ 
 }
 
-.img-social-media {
+.img-social-media{
     max-width: 40px;
+    
 }
 
-.row {
+.row{
     text-align: center;
+
 }
 
-<<<<<<< HEAD
 /* QUEM SOMOS */
-.capa{
-    
-    /* background-image: url("/Projeto_Integrador/img/chaves.jpeg");  */
-    background-color: gray;
+.capa-quem{
+    margin: 15px 0 0 0;
+    background-image: url(../img/mao-semente.jpg); 
+    /* background-image: url(../img/jane.jpg); */
     background-size: cover;
-    /* background-repeat: no-repeat; */
-    height: 300px;   
-    /* z-index: 1; */
-    
-    
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 76vh;    
 }
 
 .quem-somos{
@@ -196,16 +276,38 @@ footer {
     padding-right: 10px;
 }
 
+.capa-oque{
+    margin: 15px 0 0 0;
+    background-image: url(../img/solo-plantar.jpg); 
+    /* background-image: url(../img/jane.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 76vh;    
+}
 .oque-fazemos{
     margin: 10%;
 }
 
 .oque-img{
     float: left;
+    margin: 0 0 15px 0;
 }
 
 .oque-texto{
     float: right;
+}
+
+.capa-como{
+    margin: 15px 0 0 0;
+    background-image: url(../img/capa.jpg); 
+    /* background-image: url(../img/jane.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 76vh;    
 }
 
 .como-fazemos{
@@ -239,45 +341,57 @@ footer {
     align-items: baseline;
 }
 
-=======
->>>>>>> 19a397f35a6c8f8a564aedf0c88b3877fed402e5
 
 /* CADASTRO ETAPA 1 */
-
-form {
+form{
     padding: 20px;
     line-height: 30px;
+    
+    
 }
 
-.btn-voltar {
+.btn-voltar{
     border-style: solid;
     border-color: #106552;
-    color: #106552;
+    color: #106552; 
     background-color: white;
     float: right;
     margin: 0px 10px;
+       
 }
 
-.btn-proximo {
+.btn-proximo{
     float: right;
     border-color: #106552;
     margin: 0px 10px;
+}
+
+/* PÁGINA ENTRAR */
+
+
+.form-cadastro{
+    padding: 0 350px 0 350px;
+    /* margin: 0 200px; */
+    line-height: 55px;
+    
 }
 
 
 /* CADASTRO ETAPA 5 */
 
-.imagens {
+.imagens{
+    
     display: flex;
     justify-content: space-between;
 }
 
-.imagens-texto {
+.imagens-texto{
     max-width: 500px;
     margin: auto 10px;
 }
 
-.caixa-texto {
+.caixa-texto{
+    
     display: flex;
     justify-content: space-between;
 }
@@ -292,82 +406,78 @@ form {
     text-align: center;
 }
 
-.card-img-top {
+.card-img-top-resultados{
     height: 60px;
 }
 
-.card-body {
+.card-body{
     align-items: baseline;
 }
 
-<<<<<<< HEAD
-.card {
+.card-resultados {
     background: none;
     align-items: center;
     
-=======
-
-/* .card {
-    background: #E6FFDB!important;
->>>>>>> 19a397f35a6c8f8a564aedf0c88b3877fed402e5
 }
 
-section .card {
+/* section .card {
     border: none;
-} 
-
+}  */
 
 /* CONFIRMAÇÃO DO CADASTRO DO PROJETO */
-
-#conquistas-confirmar {
+#conquistas-confirmar{
     background: white;
     display: flex;
     flex-direction: row!important;
     justify-content: left;
     align-items: baseline;
+    
     text-align: center;
 }
 
-.card-confirmar {
+.card-confirmar{
+    
     border-style: groove;
     max-width: 700px;
 }
 
-.card-img-top-confirmar {
+.card-img-top-confirmar{
     height: 40px;
 }
 
-#conquistas-fotos-confirmar {
+#conquistas-fotos-confirmar{
     background: white;
     display: flex;
+    
     justify-content: left;
     align-items: baseline;
+    
+   
 }
 
-.card-fotos-confirmar {
+.card-fotos-confirmar{
     justify-content: left;
     align-content: left;
     max-width: 700px;
-}
 
+}
 
 /* FEEDBACK CADASTRO */
 
-.feedback {
+.feedback{
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0px 200px;
 }
 
-.img-check-feedback {
+.img-check-feedback{
     margin: 0px 20px;
 }
 
-
 /* FEED */
 
-.perfil {
+.perfil{
     background-color: #e5e5e5;
     margin: 5px auto;
     padding: 5px;
@@ -375,9 +485,10 @@ section .card {
     height: 400px;
     float: left;
     text-align: center;
+    
 }
 
-.posts {
+.posts{
     background-color: #e5e5e5;
     margin: 5px auto;
     padding: 5px;
@@ -387,7 +498,7 @@ section .card {
     /* float: left; */
 }
 
-.interesses-recomendacoes {
+.interesses-recomendacoes{
     background-color: #e5e5e5;
     margin: 5px auto;
     padding: 5px;
@@ -396,17 +507,17 @@ section .card {
     float: right;
 }
 
-.feed {
+.feed{
     display: flex;
     justify-content: space-between;
 }
 
-.img-perfil {
+.img-perfil{
     max-width: 100px;
     justify-content: center;
 }
 
-.subtema-interesse {
+.subtema-interesse{
     border-style: solid;
     background-color: white;
     color: #106552;
@@ -414,7 +525,7 @@ section .card {
     margin: 5px;
 }
 
-.subtema-recomendacoes {
+.subtema-recomendacoes{
     border-style: solid;
     background-color: white;
     color: #106552;
@@ -422,28 +533,29 @@ section .card {
     margin: 5px;
 }
 
-.img-perfil-friend {
+.img-perfil-friend{
     max-width: 50px;
     float: left;
-    margin: 5px;
+    margin: 5px; 
 }
 
-.post-escrito {
+.post-escrito{
     text-align: left;
     font-style: normal;
     margin: 5px;
 }
 
-.nome-perfil {
+.nome-perfil{
     color: #106552;
     text-align: left;
     font-weight: bold;
     font-size: large;
 }
 
-.posts-imgs-secund {
+.posts-imgs-secund{
     width: 500px;
     display: flex;
     justify-content: space-between;
     padding: 0 30px;
+
 }
