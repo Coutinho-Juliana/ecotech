@@ -189,6 +189,7 @@ h1{
 
 .button{
     text-align: right;
+    
 }
 
 .btn{
@@ -237,6 +238,12 @@ footer  {
 .row{
     text-align: center;
 
+}
+
+/* ENTRAR */
+#link-button{
+    text-decoration: none;
+    color: white;
 }
 
 /* QUEM SOMOS */
